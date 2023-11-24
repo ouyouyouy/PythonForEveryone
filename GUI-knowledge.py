@@ -68,7 +68,14 @@ def readcsv():
         return data
     
 knowledgelist = readcsv()
-print(knowledgelist)
+    print(knowledgelist)
+
+    
+# try:   
+#     knowledgelist = readcsv()
+#     print(knowledgelist)
+# except:
+#     pass
 
 global countindex 
 countindex = 0
